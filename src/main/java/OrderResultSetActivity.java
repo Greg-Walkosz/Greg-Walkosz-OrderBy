@@ -49,7 +49,7 @@ public class OrderResultSetActivity {
          */
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
-
+        sql= "SELECT * FROM character ORDER BY last_name, first_name";
 
         List<Character> resultList = new LinkedList<>();
         try {
